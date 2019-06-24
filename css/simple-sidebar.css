@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.bg-turbo-yellow {
+  background-color: #512DA8; }
+
+.bg-turbo-yellow-10 {
+  background-color: #c5b6eb; }
+
+.bg-turbo-yellow-20 {
+  background-color: #a68de1; }
+
+.bg-turbo-yellow-30 {
+  background-color: #8665d6; }
+
+.bg-turbo-yellow-40 {
+  background-color: #673dcb; }
+
+.bg-turbo-yellow-50 {
+  background-color: #512da8; }
+
+.bg-turbo-yellow-60 {
+  background-color: #3e2280; }
+
+.bg-turbo-yellow-70 {
+  background-color: #2a1758; }
+
+.bg-turbo-yellow-80 {
+  background-color: #170d2f; }
+
+.bg-turbo-yellow-90 {
+  background-color: #030207; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #512DA8; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #ffffff; }
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s; }
+
+.navbar {
+  padding: 0px 0px;
+  background: #512DA8;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 80px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+  background-color: #512DA8; }
+
+navbar-nav {
+  background: #512DA8; }
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd; }
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.text-sidebar {
+  color: #ffffff; }
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch; }
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #512DA8;
+  color: #ffffff;
+  transition: all 0.3s; }
+
+#sidebar.active {
+  margin-left: -250px; }
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #3e2280; }
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #2a1758; }
+
+#sidebar ul p {
+  color: #ffffff;
+  padding: 10px; }
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block; }
+
+#sidebar ul li a:hover {
+  color: #512DA8;
+  background: #ffffff; }
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+  color: #ffffff;
+  background: #3e2280; }
+
+a[data-toggle="collapse"] {
+  position: relative; }
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%); }
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #3e2280; }
+
+ul.CTAs {
+  padding: 20px; }
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px; }
+
+a.download {
+  background: #ffffff;
+  color: #512DA8; }
+
+a.article,
+a.article:hover {
+  background: #3e2280 !important;
+  color: #ffffff !important; }
+
+#dropdown-show {
+  float: right; }
+
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-color: #2a1758; }
+
+#save {
+  width: 118px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  float: right;
+  align-items: right; }
+
+#back {
+  width: 118px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: transparent;
+  float: right;
+  align-items: right;
+  margin-left: 10px; }
+
+#back p {
+  width: 89px;
+  height: 29px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  /* Text style for "," */
+  font-family: "Font Awesome";
+  font-size: 32px;
+  /* Text style for "Save" */
+  font-family: Helvetica; }
+
+#save p {
+  width: 89px;
+  height: 29px;
+  color: #7e00ff;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  /* Text style for "," */
+  font-family: "Font Awesome";
+  font-size: 32px;
+  /* Text style for "Save" */
+  font-family: Helvetica; }
+
+#logo {
+  float: right;
+  text-align: right; }
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 1000vh;
+  transition: all 0.3s; }
+
+#navbarSupportedContent {
+  background-color: #3e2280; }
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px; }
+
+  #sidebar.active {
+    margin-left: 0; }
+
+  #sidebarCollapse span {
+    display: none; } }
+
+/*# sourceMappingURL=simple-sidebar.css.map */
